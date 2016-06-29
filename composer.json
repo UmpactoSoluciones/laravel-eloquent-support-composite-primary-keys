@@ -1,0 +1,35 @@
+{
+    "name": "umpacto-soluciones/laravel-eloquent-support-composite-primary-keys",
+    "description": "Laravel eloquent supports composite primary keys",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/UmpactoSoluciones/laravel-eloquent-support-composite-primary-keys.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "^5.2"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.5",
+      "mockery/mockery": "0.9.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Armas",
+            "email": "rarmas@umpacto.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+          "UmpactoSoluciones\\LaravelEloquentSupport\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "classmap": [
+          "tests/BaseTestCase.php"
+      ]
+    }
+}
